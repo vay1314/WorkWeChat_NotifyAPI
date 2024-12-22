@@ -22,8 +22,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t yin26287903/WorkWeChat_NotifyAPI:latest .
+          docker build -t yin26287903/workwechat_notifyapi:latest .
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push yin26287903/WorkWeChat_NotifyAPI:latest
+          docker push yin26287903/workwechat_notifyapi:latest
