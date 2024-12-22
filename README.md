@@ -14,14 +14,14 @@
 使用以下命令启动Docker：
 
 ```
-docker run -d --name qywx_api \
+docker run -d --name workwechat_notifyapi \
   -e QYWX_SECRET_KEY=your_secret_key \
   -e QYWX_CORPID=your_corp_id \
   -e QYWX_AGENTID=your_agent_id \
   -e QYWX_SECRET=your_agent_secret \
   -p 5005:5005 \
   --restart=always \
-  yin26287903/WorkWeChat_NotifyAPI  
+  yin26287903/workwechat_notifyapi  
 ```
 
 

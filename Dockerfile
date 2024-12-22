@@ -6,10 +6,10 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENV FLASK_APP=app.py \
+ENV FLASK_APP=NotifyAPI.py \
     FLASK_RUN_HOST=0.0.0.0 \
     FLASK_RUN_PORT=5005
 
 EXPOSE 5005
 
-CMD ["python", "app.py"]
+CMD ["python", "NotifyAPI.py"]
